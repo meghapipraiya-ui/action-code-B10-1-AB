@@ -38,6 +38,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r .github/workflows/requirements.txt
           python ml_example.py
+          python ml_example.py
           
       - name: deploy
         run: echo 'deployment of the model'
